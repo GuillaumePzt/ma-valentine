@@ -17,7 +17,7 @@ const noTexts = [
 
 noButton.addEventListener('click', () => {
     // 1. Image "Pas contente"
-    imageDisplay.src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmZ0bmZ0bmZ0bmZ0bmZ0bmZ0bmZ0bmZ0bmZ0bmZ0bmZ0JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1z/OPU6wUKARA8AU/giphy.gif"; 
+    imageDisplay.src = "chatpascontent.jpg"; 
 
     // 2. Agrandissement REEL (modifie le layout)
     paddingValue += 10; 
@@ -33,8 +33,9 @@ noButton.addEventListener('click', () => {
 });
 
 yesButton.addEventListener('click', () => {
-    imageDisplay.src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmZ0bmZ0bmZ0bmZ0bmZ0bmZ0bmZ0bmZ0bmZ0bmZ0bmZ0JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1z/l41lH4ADRtAYnGsLe/giphy.gif";
+    imageDisplay.src = "chatcontent.jpg";
     question.innerText = "OUIIII ! Je t'aime ! ❤️";
     document.querySelector('.buttons').style.display = 'none';
     confetti();
 });
+
